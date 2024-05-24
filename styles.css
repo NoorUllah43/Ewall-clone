@@ -1,0 +1,384 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+/* First Part header  */
+.first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+    background-color: #8dc549;
+    color: white;
+    font-size: 12px;
+
+}
+.contact{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    margin-left: 33px;
+}
+
+
+/* Second Part of header  */
+
+.second-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    transition: 1s;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo img{
+    height: 80px;
+    width: 212px;
+    position: relative;
+    left: 40px;
+}
+.search{
+    border: 2px solid #8dc549;
+    border-radius: 30px;
+    position: relative;
+    left: -40px;
+    height: 53px;
+}
+
+.search input{
+    height: 53px;
+    width: 375px;
+    font-size: normal;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    padding: 20px;
+    outline: none;
+
+}
+
+.search button{
+    height: 53px;
+    width: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    background-color: #8dc549;
+    color: white;
+    font-size: larger;
+
+
+}
+.cart-option a{
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+.cart-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Navbar social media icans */
+
+nav{
+    height: 55px;
+    background-color: #f0ececc0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* transition: 1s;
+    position: sticky;
+    top: 0;
+    z-index: 99; */
+}
+.meanu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -100px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(81, 80, 80);
+    font-weight: bold;
+    margin: 10px;
+}
+.icans{
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 80px;
+}
+
+/* main section  */
+
+/* section No first "main-icans" */
+
+.main-icans{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.eshop, 
+.pcb-design, 
+.Electronic-porjects, 
+.RD
+{
+
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.eshop img, 
+.pcb-design img, 
+.Electronic-porjects img, 
+.RD img 
+{
+
+    width: 150px;
+    height: 150px;
+}
+
+.main-icans p{
+    font-size: small;
+    padding: 7px;
+}
+.main-icans h2{
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+/* only of the eShop styles */
+.eshop h2{
+    color: #8dc549;
+}
+
+.eshop img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+/* only of the PCB design styles */
+.pcb-design img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+.pcb-design h2{
+    color: orange;
+}
+
+/* only of the Electronic projects styles */
+.Electronic-porjects img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+.Electronic-porjects h2{
+    color: #8dc549;
+}
+
+
+/* only of the RD styles */
+.RD img:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+.Products-hr{
+    width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0px 50px 60px;
+}
+
+.Porducts-heading h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    background-color: #8dc549;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hr{
+    width: 90vw;
+    height: 2px;
+    background-color: #9c9696;
+    border: none;
+}
+
+
+.Products-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.Products{
+    width: 220px;
+    height: 330px;
+    margin: 3px;
+    border: 2px solid #8dc549;
+    border-radius: 5px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 1px 1px #000000; */
+    background: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Products:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+    border-color: rgba(255, 0, 0, 0.923);
+    cursor: pointer;
+}
+
+.Products img{
+    width: 100%;
+    height: 60%;
+
+}
+.Products p{
+    margin-top: 8px;
+    font-size: small;
+}
+.Products button{
+    width: 40%;
+    height: 30px;
+    background-color: #95d941;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    
+}
+.Products button:hover{
+    transition: all 0.8s ease-in-out;
+    background-color: rgb(223, 43, 43);
+}
+.products_price{
+    width: 100%;
+    height: 10%;
+    border: none;
+    background-color: #e7e1e192;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+
+/* footer start  */
+.foorter-header{
+    height: 60px;
+    margin-top: 20px;
+    background-color: #95d941;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foorter-header h1{
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-email{
+    position: absolute;
+    right: 20px;
+
+}
+.footer-email input{
+    height: 25px;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.footer-email button{
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.footer-main {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo{
+    width: 440px;
+    
+}
+.footer-contact{
+    width: 440px;
+}
+.footer-socail-icans{
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.footer-socail-icans img{
+    width: 40px;
+    padding: 30px;
+}
+.footer-socail-icans .facebook{
+    width: 23px;
+}
+
+/* footer-foot */
+.footer-foot{
+    height: 50px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+}
+.footer-foot a{
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    color: black;
+}
